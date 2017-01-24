@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F38A9FF1E20EA7B006BA1BD /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F38A9FE1E20EA7B006BA1BD /* DrawViewController.swift */; };
+		4F75462A1E20E87500CADADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7546291E20E87500CADADC /* AppDelegate.swift */; };
+		4F75462F1E20E87500CADADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F75462D1E20E87500CADADC /* Main.storyboard */; };
+		4F7546321E20E87500CADADC /* NeuroTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F7546301E20E87500CADADC /* NeuroTest.xcdatamodeld */; };
+		4F7546341E20E87500CADADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7546331E20E87500CADADC /* Assets.xcassets */; };
+		4F7546371E20E87500CADADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7546351E20E87500CADADC /* LaunchScreen.storyboard */; };
+		4F7B482B1E2379BE0029DFA8 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B482A1E2379BE0029DFA8 /* Neuron.swift */; };
+		4F7B482D1E237C7B0029DFA8 /* extention_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B482C1E237C7B0029DFA8 /* extention_UIImage.swift */; };
+		4F7B482F1E237CBB0029DFA8 /* extention_CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B482E1E237CBB0029DFA8 /* extention_CGRect.swift */; };
+		4F7B48311E237D1E0029DFA8 /* NeuroWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7B48301E237D1E0029DFA8 /* NeuroWeb.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F38A9FE1E20EA7B006BA1BD /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		4F7546261E20E87500CADADC /* NeuroTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7546291E20E87500CADADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F75462E1E20E87500CADADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F7546311E20E87500CADADC /* NeuroTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeuroTest.xcdatamodel; sourceTree = "<group>"; };
+		4F7546331E20E87500CADADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7546361E20E87500CADADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F7546381E20E87500CADADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7B482A1E2379BE0029DFA8 /* Neuron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
+		4F7B482C1E237C7B0029DFA8 /* extention_UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extention_UIImage.swift; sourceTree = "<group>"; };
+		4F7B482E1E237CBB0029DFA8 /* extention_CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extention_CGRect.swift; sourceTree = "<group>"; };
+		4F7B48301E237D1E0029DFA8 /* NeuroWeb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuroWeb.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7546231E20E87500CADADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F75461D1E20E87500CADADC = {
+			isa = PBXGroup;
+			children = (
+				4F7546281E20E87500CADADC /* NeuroTest */,
+				4F7546271E20E87500CADADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7546271E20E87500CADADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7546261E20E87500CADADC /* NeuroTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F7546281E20E87500CADADC /* NeuroTest */ = {
+			isa = PBXGroup;
+			children = (
+				4F7546291E20E87500CADADC /* AppDelegate.swift */,
+				4F38A9FE1E20EA7B006BA1BD /* DrawViewController.swift */,
+				4F7B482C1E237C7B0029DFA8 /* extention_UIImage.swift */,
+				4F7B482E1E237CBB0029DFA8 /* extention_CGRect.swift */,
+				4F7B482A1E2379BE0029DFA8 /* Neuron.swift */,
+				4F7B48301E237D1E0029DFA8 /* NeuroWeb.swift */,
+				4F75462D1E20E87500CADADC /* Main.storyboard */,
+				4F7546331E20E87500CADADC /* Assets.xcassets */,
+				4F7546351E20E87500CADADC /* LaunchScreen.storyboard */,
+				4F7546381E20E87500CADADC /* Info.plist */,
+				4F7546301E20E87500CADADC /* NeuroTest.xcdatamodeld */,
+			);
+			path = NeuroTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7546251E20E87500CADADC /* NeuroTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F75463B1E20E87500CADADC /* Build configuration list for PBXNativeTarget "NeuroTest" */;
+			buildPhases = (
+				4F7546221E20E87500CADADC /* Sources */,
+				4F7546231E20E87500CADADC /* Frameworks */,
+				4F7546241E20E87500CADADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroTest;
+			productName = NeuroTest;
+			productReference = 4F7546261E20E87500CADADC /* NeuroTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F75461E1E20E87500CADADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = el2Nil;
+				TargetAttributes = {
+					4F7546251E20E87500CADADC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4587NGDY56;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 4F7546211E20E87500CADADC /* Build configuration list for PBXProject "NeuroTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F75461D1E20E87500CADADC;
+			productRefGroup = 4F7546271E20E87500CADADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7546251E20E87500CADADC /* NeuroTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7546241E20E87500CADADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7546371E20E87500CADADC /* LaunchScreen.storyboard in Resources */,
+				4F7546341E20E87500CADADC /* Assets.xcassets in Resources */,
+				4F75462F1E20E87500CADADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7546221E20E87500CADADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7B482D1E237C7B0029DFA8 /* extention_UIImage.swift in Sources */,
+				4F38A9FF1E20EA7B006BA1BD /* DrawViewController.swift in Sources */,
+				4F7B48311E237D1E0029DFA8 /* NeuroWeb.swift in Sources */,
+				4F75462A1E20E87500CADADC /* AppDelegate.swift in Sources */,
+				4F7B482B1E2379BE0029DFA8 /* Neuron.swift in Sources */,
+				4F7B482F1E237CBB0029DFA8 /* extention_CGRect.swift in Sources */,
+				4F7546321E20E87500CADADC /* NeuroTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F75462D1E20E87500CADADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F75462E1E20E87500CADADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F7546351E20E87500CADADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F7546361E20E87500CADADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F7546391E20E87500CADADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F75463A1E20E87500CADADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F75463C1E20E87500CADADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrey Antonov (XDF7YKJ9BM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4587NGDY56;
+				INFOPLIST_FILE = NeuroTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.macdev.NeuroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd8aa177-aed3-41cd-ab4d-9aff28ec76b6";
+				PROVISIONING_PROFILE_SPECIFIER = dd8cd3c407239beeacca988cc15dea4317ecb189;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4F75463D1E20E87500CADADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrey Antonov (XDF7YKJ9BM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4587NGDY56;
+				INFOPLIST_FILE = NeuroTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.macdev.NeuroTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd8aa177-aed3-41cd-ab4d-9aff28ec76b6";
+				PROVISIONING_PROFILE_SPECIFIER = dd8cd3c407239beeacca988cc15dea4317ecb189;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7546211E20E87500CADADC /* Build configuration list for PBXProject "NeuroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7546391E20E87500CADADC /* Debug */,
+				4F75463A1E20E87500CADADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F75463B1E20E87500CADADC /* Build configuration list for PBXNativeTarget "NeuroTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F75463C1E20E87500CADADC /* Debug */,
+				4F75463D1E20E87500CADADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F7546301E20E87500CADADC /* NeuroTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F7546311E20E87500CADADC /* NeuroTest.xcdatamodel */,
+			);
+			currentVersion = 4F7546311E20E87500CADADC /* NeuroTest.xcdatamodel */;
+			path = NeuroTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F75461E1E20E87500CADADC /* Project object */;
+}
